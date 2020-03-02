@@ -1,3 +1,27 @@
+Ubuntu
+
+There are some problems.
+
+(node:78367) UnhandledPromiseRejectionWarning: Error: ENOENT: no such file or directory, open '/usr/local/lib/node_modules/webmonkey/node_modules/figlet/fonts/univers.flf'
+    at Object.openSync (fs.js:457:3)
+    at Object.readFileSync (fs.js:359:35)
+    at Function.figlet.loadFontSync (/usr/local/lib/node_modules/webmonkey/node_modules/figlet/lib/node-figlet.js:48:23)
+    at Function.me.textSync (/usr/local/lib/node_modules/webmonkey/node_modules/figlet/lib/figlet.js:732:43)
+    at main$1 (/usr/local/lib/node_modules/webmonkey/bin/index.js:398:25)
+    at Object.<anonymous> (/usr/local/lib/node_modules/webmonkey/bin/index.js:418:1)
+    at Module._compile (internal/modules/cjs/loader.js:1158:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1178:10)
+    at Module.load (internal/modules/cjs/loader.js:1002:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:901:14)
+(node:78367) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 1)
+(node:78367) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+
+
+
+
+
+
+
 <img src="media/logo.png" alt="Webmonkey" width="350">
 
 > Robust and versatile headless monkey testing for the modern web with reproducible steps, error alerts, strategy sharing and many other good things.
