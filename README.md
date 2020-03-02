@@ -17,12 +17,17 @@ There are some problems as follows, if the webmonkey is installed in linux opera
 ```
 
 To solve this error you have to change the name of Univers.flf to univers.flf.
-
-
-
-
-
-
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
 <img src="media/logo.png" alt="Webmonkey" width="350">
 
 > Robust and versatile headless monkey testing for the modern web with reproducible steps, error alerts, strategy sharing and many other good things.
