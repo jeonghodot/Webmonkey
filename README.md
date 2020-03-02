@@ -1,6 +1,4 @@
-Ubuntu
-
-There are some problems.
+There are some problems as follows, if the webmonkey is installed in linux operating system.
 
 ```javascript
 (node:78367) UnhandledPromiseRejectionWarning: Error: ENOENT: no such file or directory, open '/usr/local/lib/node_modules/webmonkey/node_modules/figlet/fonts/univers.flf'
@@ -18,7 +16,7 @@ There are some problems.
 (node:78367) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
 ```
 
-to solve this error you have to change the name of Univers.flf to univers.flf.
+To solve this error you have to change the name of Univers.flf to univers.flf.
 
 
 
